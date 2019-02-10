@@ -1,0 +1,45 @@
+{
+  "name": "protractorframework",
+  "version": "1.0.0",
+  "description": "Promitus Test Automation framework",
+  "main": "conf.js",
+  "dependencies": {
+    "@types/node": "^10.12.24",
+    "jasmine": "^3.3.1",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "typescript": "^3.3.3",
+    "webdriver-manager": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.8",
+    "@types/jasminewd2": "^2.0.6",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf temp/ && rimraf download/",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "protractor temp/conf.js",
+    "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "typescript",
+    "javascript",
+    "angular",
+    "angularjs",
+    "vscode",
+    "testing",
+    "selenium",
+    "webdriverJS",
+    "automation testing"
+  ],
+  "author": "Pawan Kumar Dwivedi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qaloop/protractor-jasmine-typescript.git"
+  }
+}
