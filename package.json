@@ -1,7 +1,7 @@
 {
-  "name": "protractorframework",
+  "name": "protractortypescript",
   "version": "1.0.0",
-  "description": "Promitus Test Automation framework",
+  "description": "Protractor Test Automation framework",
   "main": "conf.js",
   "dependencies": {
     "@types/node": "^10.12.24",
